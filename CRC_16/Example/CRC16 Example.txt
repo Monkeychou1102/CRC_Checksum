@@ -1,0 +1,8 @@
+Input Data: 84 12 F7 64 18 02 05 00 BB 32 E7 64 08
+
+Method: CRC-16/IBM-3740 (CRC-16-CCIT-FALSE)
+Polynomial Formula: X^16 + X^12 + X^5 + 1
+
+Result	Check	Poly	Init	RefIn	RefOut	XorOut
+0xB81B  0x29B1	0x1021	0xFFFF	false	false	0x0000
+
